@@ -68,5 +68,4 @@ def get_languages() -> Dict[str, Union[str, List[str]]]:
             "authors": languages[code]["authors"],
         }
         for code in languages
-                     }
-  
+    }
